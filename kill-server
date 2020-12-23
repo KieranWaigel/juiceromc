@@ -1,0 +1,3 @@
+#!/bin/bash
+# sends SIGTERM to all java processes; since only the minecraft server is running this should work fine
+sudo pkill java
